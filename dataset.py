@@ -22,10 +22,10 @@ class Dataset(data.Dataset):
 
             else:
                 if dataset == 'DAVIS':
-                    imgset_path = data_dir + '/ImageSets/480p/val.txt'
+                    imgset_path = data_dir + '/ImageSets/480p/test.txt'
 
                 else:
-                    imgset_path = data_dir + '/ImageSets/val.txt'
+                    imgset_path = data_dir + '/ImageSets/test.txt'
 
             imgset_file = open(imgset_path)
 
