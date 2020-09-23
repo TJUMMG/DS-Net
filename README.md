@@ -1,1 +1,13 @@
-# DS-Net: Dynamic Spatiotemporal Network for video Salient Object Detection
+# DS-Net
+DSNet: Dynamic Spatiotemporal Network for Video Salient Object Detection
+### For training:
+1. Download [pretrained ResNet34](https://download.pytorch.org/models/resnet34-333f7ec4.pth) to './model/resnet/pre_train'.
+
+2. Organize each dataset according to the organization format in the './dataset/DAVIS'.
+
+3. Install [FlowNet2.0](https://github.com/NVIDIA/flownet2-pytorch) and genrate correct optical flow images.
+
+4. Start to train with `python main.py --mode train`.
+
+### For testing:
+
