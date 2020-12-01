@@ -14,4 +14,6 @@ DSNet: Dynamic Spatiotemporal Network for Video Salient Object Detection
 
 2. Generate saliency maps for SOD dataset by `python main.py --mode test`.
 
+3. The evaluation tools are provided by [Fan D et. al.](https://github.com/DengPingFan/DAVSOD/tree/master/EvaluateTool)
+
 
